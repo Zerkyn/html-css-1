@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 50px;
+    color: #E0E0E0
+}
+
+h2 {
+    color: #E0E0E0;
+}
+
+body {
+    background-color: #3A606E;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center
+}
+
+p {
+    color: #3A606E;
+    font-size: 30px;
+    text-align: center;
+    margin: 2px;
+    background-color: #E0E0E0;
+
+}
+
+.puppies {
+    background-color: #607B7D;
+    padding-top: 5px;
+}
+
+.puppies2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #607B7D;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.beagle {
+    width: 200px;
+    background-color: #828E82;
+}
+
+.yorkie {
+    width: 200px;
+}
+
+.chihuahua {
+    width: 200px;
+}
+
+.dog {
+    width: 170px;
+}
+
+.puppy-gif {
+    background-color: #607B7D;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attack {
+    margin-top: 20px;
+}
+
+.gif-text {
+    color: red
+}
+
+.flying-gif {
+    transition: width 2s height 2s transform 2s;
+}
+
+.flying-gif:hover {
+    width: 800px;
+}
